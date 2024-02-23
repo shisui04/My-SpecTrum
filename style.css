@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.back {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000;
+    background-image: url(https://i.pinimg.com/originals/42/bb/ea/42bbea7b3db499716708b884b795297f.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    color: #05ac05;
+    padding: 0 8%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.back h2 {
+    font-size: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    color: #05ac05;
+    text-decoration: none;
+}
+
+.back h1 {
+    font-size: 70px;
+    margin-top: 12%;
+}
+
+.back button {
+    background: #0a0a0a;
+    border: 0;
+    outline: none;
+    padding: 15px 35px;
+    color: #05ac05;
+    margin-top: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.indicator span {
+    display: inline-block;
+    background: #3a3a3a;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.indicator {
+    margin-top: 150px;
+}
+
+.indicator span.active {
+    background: #038103;
+}
+
+.other {
+    position: absolute;
+    width: 25%;
+    min-width: 250px;
+    right: 8%;
+    bottom: 100px;
+}
